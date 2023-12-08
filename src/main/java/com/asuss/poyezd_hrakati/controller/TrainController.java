@@ -51,7 +51,7 @@ public class TrainController {
         return new ResponseEntity<>(train_dto, HttpStatus.OK);
 
     }
-
+//Continue please
     @DeleteMapping("{id}")
     HttpEntity<?> delete(@PathVariable Long id){
         trainService.delete(id);
